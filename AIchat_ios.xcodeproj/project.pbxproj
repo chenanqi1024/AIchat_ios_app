@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2A8574B02FF1619F00BAD86A /* AGENTS.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A8574AF2FF1619600BAD86A /* AGENTS.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2A8574A12FF1607E00BAD86A /* AIchat_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIchat_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8574AF2FF1619600BAD86A /* AGENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AGENTS.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		2A8574982FF1607E00BAD86A = {
 			isa = PBXGroup;
 			children = (
+				2A8574AF2FF1619600BAD86A /* AGENTS.md */,
 				2A8574A32FF1607E00BAD86A /* AIchat_ios */,
 				2A8574A22FF1607E00BAD86A /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8574B02FF1619F00BAD86A /* AGENTS.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
